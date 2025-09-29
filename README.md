@@ -25,6 +25,15 @@ https://github.com/user-attachments/assets/3980f736-3df1-4598-8251-e1d420a9fb04
 4. In the FootballApp folder create a `local.settings.json` file and copy the contents from the sample file [local.settings.json.example](https://github.com/stoughty111/nfl-player-comparisons-app/blob/main/api/FootballApp/local.settings.json.example)
 5. Select the run button at the top of Visual Studio
 
+### Sample Endpoint Request
+Send a **POST** request with a JSON body in the following format:
+```json
+{
+  "player1": "Justin Jefferson",
+  "player2": "Tyreek Hill"
+}
+```
+
 ### 2. react-app
 1. Ensure Node.js is installed (check via `node -v`)
 2. Set `VITE_API_ENDPOINT` in `.env` to the api URL.
