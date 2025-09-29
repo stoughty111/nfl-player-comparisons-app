@@ -1,5 +1,5 @@
 # NFL Player Comparisons
-A small app that compares 2024 NFL player season statistics. The backend is an Azure Function (C#) that loads player profiles, fetches season stats from [SportsDataIO](https://sportsdata.io/), and returns two player objects. The frontend is a React app (Vite + MUI) that posts player names and renders side‑by‑side stats.
+A small full-stack app that compares 2024 NFL player season statistics. The backend is an Azure Function (C#) that loads player profiles, fetches season stats from [SportsDataIO](https://sportsdata.io/), and returns two player objects. The frontend is a React app (Vite + MUI) that posts player names and renders side‑by‑side stats.
 
 ## Demo
 https://github.com/user-attachments/assets/3980f736-3df1-4598-8251-e1d420a9fb04
