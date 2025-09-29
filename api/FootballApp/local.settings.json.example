@@ -1,0 +1,17 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "Functions:Worker:HostEndpoint": "http://localhost:7272",
+        "ApiKey": "aee24d5bf1dd4170b7ae4c6070197ee2",
+        "PlayerSeasonStats": "https://api.sportsdata.io/v3/nfl/stats/json/PlayerSeasonStatsByPlayerID/2024REG",
+        "PlayerProfiles": "https://api.sportsdata.io/v3/nfl/scores/json/PlayersByAvailable",
+        "PlayerInfoContainer": "nfl-player-profiles",
+        "PlayerProfilesFilename": "ActivePlayerProfiles.json",
+        "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=b97e0f5f-0d86-4e5d-ada7-9d8bb3be250b;IngestionEndpoint=https://canadacentral-1.in.applicationinsights.azure.com/;LiveEndpoint=https://canadacentral.livediagnostics.monitor.azure.com/;ApplicationId=4f88fc03-e474-46fb-bd43-6129f1b41f77"
+    },
+    "Host": {
+        "CORS": "*"
+    }
+}
